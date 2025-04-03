@@ -3,7 +3,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from math import sqrt
 
-
 def fetch_osm_data_bbox(min_lat, min_lon, max_lat, max_lon):
     """
     Fetches road network data using a bounding box.
